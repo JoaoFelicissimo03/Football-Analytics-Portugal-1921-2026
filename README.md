@@ -2,7 +2,7 @@
 
 A SQL analysis of Portugal's international football history across 150 years and five distinct eras — from the Eusébio generation to the modern CR7 era — using PostgreSQL and a dataset of 49,000+ international matches.
 
-> **Status:** In progress — SQL analysis phase nearing completion. Power BI dashboard to follow.
+> **Status:** SQL analysis phase complete. Power BI dashboard in progress.
 
 ---
 
@@ -62,15 +62,29 @@ README.md
 
 ---
 
-## Key Findings So Far
+## Key Findings
 
 - Portugal's win rate more than doubled between Era 1 (29.13%) and Era 5 (60.73%).
 - The sharpest single improvement was defensive: goals conceded per game dropped from 2.24 to 0.78 between Era 1 and Era 4.
 - Era 1 (1921–1960) failed to qualify for any of the 6 World Cups held during that period.
 - The 1966 World Cup (Eusébio era) remains Portugal's best campaign by win rate: 83.33%, finishing 3rd.
-- Era 4 (Golden Generation) had the best defensive record in history (0.78 goals conceded/game) and a perfect penalty shootout record (2/2).
-- Era 5 (Modern Era) has the highest win rate ever (60.73% overall, 64.71% in competitive matches), driven heavily by Cristiano Ronaldo (99 goals — almost 5x the next highest scorer in the era).
-- **The data does not produce a single "golden generation"** — Era 4 wins on defensive solidity and shootout record, Era 5 wins on overall win rate and trophies. This ambiguity is itself one of the project's most interesting findings.
+- Clean sheet rate climbs from 16.50% (Era 1) to a peak of 49.74% (Era 4) — nearly half of all matches.
+- Era 4 holds Portugal's longest unbeaten run in history: 19 consecutive games without defeat.
+- Era 5 has the most comeback wins (12) — more than the previous four eras combined (9).
+- Era 5's longest winning streak (11 games) is the highest in history, narrowly ahead of Era 2's 9.
+- Cristiano Ronaldo scored 99 goals in Era 5 alone — almost 5x the next highest scorer in that era.
+
+### So — which era is the golden generation?
+
+The data splits almost perfectly down the middle:
+
+| | Era 4 — Golden Generation | Era 5 — Modern Era |
+|---|---|---|
+| **Wins on** | Goals conceded/game (0.78) | Win rate (60.73%) |
+| | Clean sheet rate (49.74%) | Comeback wins (12) |
+| | Longest unbeaten run (19) | Longest winning streak (11) |
+
+**Era 4 is Portugal's best defensive generation. Era 5 is its best attacking and highest-achieving generation.** There is no single winner — and that ambiguity is one of the project's most interesting findings.
 
 ---
 
@@ -84,7 +98,7 @@ README.md
 
 ## Next Steps
 
-- [ ] Finish `5_analysis_advanced.sql` (streaks, comebacks, clean sheets)
+- [x] Finish `5_analysis_advanced.sql` (streaks, comebacks, clean sheets)
 - [ ] Connect PostgreSQL to Power BI
 - [ ] Build single-page dashboard with era slicer
 - [ ] Publish dashboard and add link here
