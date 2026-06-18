@@ -1,0 +1,94 @@
+{
+  "name": "Football Analytics — Portugal",
+  "dataColors": [
+    "#8B1A1A",
+    "#C47A7A",
+    "#6B2020",
+    "#A82020",
+    "#3D1515",
+    "#1A5C1A",
+    "#C4E8A0",
+    "#F5E6E6"
+  ],
+  "background": "#1A0A0A",
+  "foreground": "#F5E6E6",
+  "tableAccent": "#8B1A1A",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#240E0E" } } }],
+        "border": [{ "color": { "solid": { "color": "#3D1515" } } }],
+        "fontColor": [{ "color": { "solid": { "color": "#F5E6E6" } } }],
+        "fontSize": [{ "fontSize": 11 }]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [{
+          "color": { "solid": { "color": "#F5E6E6" } },
+          "fontSize": 28,
+          "fontFamily": "Calibri"
+        }],
+        "label": [{
+          "color": { "solid": { "color": "#8A5A5A" } },
+          "fontSize": 9
+        }],
+        "background": [{ "color": { "solid": { "color": "#240E0E" } } }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#240E0E" } } }],
+        "fontColor": [{ "color": { "solid": { "color": "#C4A0A0" } } }],
+        "outlineColor": [{ "color": { "solid": { "color": "#3D1515" } } }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#240E0E" } } }],
+        "gridlineColor": [{ "color": { "solid": { "color": "#3D1515" } } }],
+        "axisColor": [{ "color": { "solid": { "color": "#8A5A5A" } } }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#240E0E" } } }],
+        "gridlineColor": [{ "color": { "solid": { "color": "#3D1515" } } }],
+        "axisColor": [{ "color": { "solid": { "color": "#8A5A5A" } } }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "fontColor": [{ "color": { "solid": { "color": "#F5E6E6" } } }],
+        "background": [{ "color": { "solid": { "color": "#240E0E" } } }],
+        "gridColor": [{ "color": { "solid": { "color": "#3D1515" } } }],
+        "header": [{
+          "fontColor": { "solid": { "color": "#8A5A5A" } },
+          "background": { "solid": { "color": "#1A0A0A" } }
+        }]
+      }
+    }
+  },
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Calibri",
+      "color": "#F5E6E6"
+    },
+    "title": {
+      "fontSize": 12,
+      "fontFace": "Calibri",
+      "color": "#F5E6E6"
+    },
+    "header": {
+      "fontSize": 10,
+      "fontFace": "Calibri",
+      "color": "#8A5A5A"
+    },
+    "label": {
+      "fontSize": 9,
+      "fontFace": "Calibri",
+      "color": "#8A5A5A"
+    }
+  }
+}
