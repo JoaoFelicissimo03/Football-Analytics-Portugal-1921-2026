@@ -53,7 +53,7 @@ Five era tiles across the top of the dashboard. Selecting an era filters every v
 ### KPI Cards
 Four cards displayed in a row below the slicer:
 
-- **Win Rate %** - percentage of matches won in the selected era
+- **Win Rate (%)** - percentage of matches won in the selected era
 - **Clean Sheet %** - percentage of matches where Portugal conceded zero goals
 - **Avg Goals Scored** - average goals scored per match
 - **Avg Goals Conceded** - average goals conceded per match
