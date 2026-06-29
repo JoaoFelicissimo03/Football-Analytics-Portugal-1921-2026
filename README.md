@@ -167,7 +167,7 @@ The core analysis script. Starts with a rolling 5-year breakpoint analysis (C0) 
 **Era overview (C1–C3)**
 - Core record per era: matches, wins, draws, losses, win rate, goals scored/conceded
 - Competitive matches only (excluding friendlies)
-- Home vs away breakdown removed from scope - home_team field in dataset reflects designated side, not physical location
+- Home vs Away breakdown removed from scope - home_team field in dataset reflects designated side, not physical location
 
 **Tournament performance (C4–C6)**
 - World Cup record per era: 8 appearances total, best campaign 1966 (83.33% WR)
